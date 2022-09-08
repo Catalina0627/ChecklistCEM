@@ -1,4 +1,4 @@
-m<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.ChecklistCem" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -13,6 +13,6 @@ m<resources xmlns:tools="http://schemas.android.com/tools">
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
 
-        <item name="background">@c</item>
+        <item name="android:background">#E0BDb79</item>
     </style>
 </resources>

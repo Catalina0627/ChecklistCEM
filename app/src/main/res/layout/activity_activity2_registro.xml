@@ -5,21 +5,8 @@
     android:id="@+id/br"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#770892BC"
     android:scrollbarDefaultDelayBeforeFade="400"
     tools:context=".Activity2Registro">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="270dp"
-        android:layout_height="47dp"
-        android:fontFamily="cursive"
-        android:text="Información Personal"
-        android:textColor="#4CAF50"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="46dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -70,5 +57,25 @@
         app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
         tools:layout_editor_absoluteX="212dp"
         tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="270dp"
+        android:layout_height="47dp"
+        android:fontFamily="cursive"
+        android:text="Información Personal"
+        android:textColor="#4CAF50"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="113dp"
+        app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="322dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

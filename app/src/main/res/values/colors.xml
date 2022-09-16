@@ -10,6 +10,7 @@
 
 
 
-    <color name="primary">#E4009688</color>
-    <color name="background">#723294</color>
+
+    <color name="background">#FF723294</color>
+    <color name="primary">#FF83D658</color>
 </resources>

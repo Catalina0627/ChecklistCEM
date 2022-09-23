@@ -6,15 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbarDefaultDelayBeforeFade="400"
-    tools:context=".Activity2Registro">
+    tools:context=".RegistroActivity">
 
     <Button
-        android:id="@+id/button"
+0999999999999999999900000000..................Ñ        android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteY="605dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -26,8 +26,8 @@
         android:text="Edad"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="195dp" />
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="189dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -40,39 +40,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="136dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="164dp"
-        android:layout_height="114dp"
-        app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="429dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="164dp"
-        android:layout_height="114dp"
-        app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="429dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="167dp"
-        android:layout_height="113dp"
-        app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="281dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="164dp"
-        android:layout_height="114dp"
-        app:srcCompat="@drawable/_cc7a630624d20f7797cb4c8e93c09c1"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="281dp" />
+        tools:layout_editor_absoluteY="127dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -84,7 +52,7 @@
         android:textSize="34sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="46dp" />
+        tools:layout_editor_absoluteY="43dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -92,5 +60,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/a1_h"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="344dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

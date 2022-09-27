@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="avatars">
+        <item>@drawable/a1_h</item>
+        <item>@drawable/a1_m</item>
+        <item>@drawable/a2_h</item>
+        <item>@drawable/a2_m</item>
+    </array>
+
+</resources>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ChecklistCem</string>
+    <string name="calendario">calendario</string>
+    <string name="nueva">new</string>
+    <string name="check">check</string>
+    <string name="list">list</string>
+    <string name="cem">cem</string>
+    <string name="todo">TODO</string>
 </resources>

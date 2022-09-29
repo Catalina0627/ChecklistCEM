@@ -4,7 +4,6 @@ import android.content.res.TypedArray
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import com.stasoft.checklistcem.databinding.ActivityActivityregistroBinding
 import com.stasoft.checklistcem.databinding.ActivityRegistroBinding
 
 class RegistroActivity : AppCompatActivity() {
@@ -19,7 +18,7 @@ class RegistroActivity : AppCompatActivity() {
 
         //Carga de imagen botón izquierdo
         binding.buttonLeft.setOnClickListener(){
-            numAvatar--
+            if (numAvatar>0) numAvatar;59
             cargaImagen(binding.imageView, numAvatar)
         }
 
@@ -40,6 +39,7 @@ class RegistroActivity : AppCompatActivity() {
             imageView.setImageResource(imageArray.getResourceId(numero,R.drawable.a1_h))
             ret = true
         }
+
         imageArray.recycle()
         return ret
     }

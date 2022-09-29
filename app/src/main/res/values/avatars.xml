@@ -5,6 +5,13 @@
         <item>@drawable/a1_m</item>
         <item>@drawable/a2_h</item>
         <item>@drawable/a2_m</item>
+        <item>@drawable/a3_h</item>
+        <item>@drawable/a3_m</item>
+        <item>@drawable/a4_h</item>
+        <item>@drawable/a4_m</item>
+        <item>@drawable/a5_h</item>
+        <item>@drawable/a5_m</item>
+
     </array>
 
 </resources>

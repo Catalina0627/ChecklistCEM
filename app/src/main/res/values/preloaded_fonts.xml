@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_extrabold</item>
         <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/arbutus</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/boogaloo</item>
+        <item>@font/calistoga</item>
         <item>@font/gloria_hallelujah</item>
+        <item>@font/ovo</item>
+        <item>@font/playball</item>
+        <item>@font/unlock</item>
+        <item>@font/yeseva_one</item>
     </array>
 </resources>

@@ -17,7 +17,7 @@
             android:name=".ActivityInicioPantalla"
             android:exported="false" />
         <activity
-            android:name=".RegistroActivity"
+            android:name=".Activity2Registro"
             android:exported="false" />
         <activity
             android:name=".ActivityPantallaInicio"

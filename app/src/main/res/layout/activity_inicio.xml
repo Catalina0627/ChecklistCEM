@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:backgroundTint="#ffff72"
-    tools:context=".ActivityPantallaInicio">
+    tools:context=".Activity_inicio">
 
 
     <ImageView

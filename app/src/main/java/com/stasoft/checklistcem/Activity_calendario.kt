@@ -3,7 +3,7 @@ package com.stasoft.checklistcem
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class Activity_calendario : AppCompatActivity() {
 
     private var banding: Any
     private lateinit var binding: ActivityMainBinding
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         banding = ActivityMainBinding.inflatec
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calendario)
     }
 }
 

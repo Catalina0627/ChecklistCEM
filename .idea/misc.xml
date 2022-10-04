@@ -3,17 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_activity2_registro.xml" value="0.1" />
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_activityregistro.xml" value="0.22" />
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_extras.xml" value="0.17980072463768115" />
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_inicio_pantalla.xml" value="0.16" />
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_main.xml" value="0.15896739130434784" />
-        <entry key="..\:/Android/Proyectos/ChecklistCEM/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.1" />
-        <entry key="..\:/Projects/ChecklistCEM/app/src/main/res/layout/activity_activity2_registro.xml" value="0.22" />
-        <entry key="..\:/Projects/ChecklistCEM/app/src/main/res/layout/activity_activityregistro.xml" value="0.19635416666666666" />
-        <entry key="..\:/Projects/ChecklistCEM/app/src/main/res/layout/activity_inicio_pantalla.xml" value="0.19635416666666666" />
-        <entry key="..\:/Projects/ChecklistCEM/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Projects/ChecklistCEM/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.19635416666666666" />
+        <entry key="..\:/AndroidStudioProjects/ChecklistCEM/app/src/main/res/layout/activity_activityregistro.xml" value="0.16927083333333334" />
+        <entry key="..\:/AndroidStudioProjects/ChecklistCEM/app/src/main/res/layout/activity_inicio_pantalla.xml" value="0.16927083333333334" />
+        <entry key="..\:/AndroidStudioProjects/ChecklistCEM/app/src/main/res/layout/activity_main.xml" value="0.16927083333333334" />
+        <entry key="..\:/AndroidStudioProjects/ChecklistCEM/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.16927083333333334" />
+        <entry key="..\:/AndroidStudioProjects/ChecklistCEM/app/src/main/res/layout/activity_registro.xml" value="0.22" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_actividades.xml" value="0.19635416666666666" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_activity2_registro.xml" value="0.33" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_activityregistro.xml" value="0.15489130434782608" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_extras.xml" value="0.19635416666666666" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_inicio_pantalla.xml" value="0.15489130434782608" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_main.xml" value="0.15489130434782608" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_pantalla_inicio.xml" value="0.1" />
+        <entry key="..\:/ChecklistCem/app/src/main/res/layout/activity_registro.xml" value="0.1" />
       </map>
     </option>
   </component>

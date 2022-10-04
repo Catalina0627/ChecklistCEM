@@ -20,13 +20,13 @@
             android:name=".Activity2Registro"
             android:exported="false" />
         <activity
-            android:name=".ActivityPantallaInicio"
+            android:name=".Activity_inicio"
             android:exported="false" />
         <activity
             android:name=".activityregistro"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity_calendario"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

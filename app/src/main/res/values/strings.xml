@@ -6,4 +6,11 @@
     <string name="list">list</string>
     <string name="cem">cem</string>
     <string name="todo">TODO</string>
+    <string name="itemayuda">Ayuda</string>
+    <string name="itemusuario">Usuario</string>
+    <string name="itemconfiguracion">Configuracion</string>
+    <string name="nav_close">Open</string>
+    <string name="nav_open">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

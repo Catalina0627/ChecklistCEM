@@ -14,9 +14,6 @@
         android:theme="@style/Theme.ChecklistCem"
         tools:targetApi="31">
         <activity
-            android:name=".TareascumplidasActivity"
-            android:exported="false" />
-        <activity
             android:name=".ActivityInicioPantalla"
             android:exported="false" />
         <activity

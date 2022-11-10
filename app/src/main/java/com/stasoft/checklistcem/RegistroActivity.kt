@@ -18,7 +18,7 @@ class RegistroActivity : AppCompatActivity() {
 
         //Carga de imagen botón izquierdo
         binding.buttonLeft.setOnClickListener(){
-            if (numAvatar>0) numAvatar;59
+            if (numAvatar>0) numAvatar;
             cargaImagen(binding.imageView, numAvatar)
         }
 

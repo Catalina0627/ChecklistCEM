@@ -8,9 +8,14 @@
     android:scrollbarDefaultDelayBeforeFade="400"
     tools:context=".RegistroActivity">
 
+
+
+
+
     <ImageButton
         android:id="@+id/buttonRight"
         android:layout_width="60dp"
+        android:background="#D78DED"
 
         android:layout_height="108dp"
         android:layout_marginTop="104dp"
@@ -27,8 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
+        android:background="#D78DED"
         android:text="Next"
-        android:textColor="#455A64"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -42,15 +48,17 @@
         android:layout_height="48dp"
         android:layout_marginTop="52dp"
         android:ems="10"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/aclonica"
         android:inputType="textPersonName"
         android:text="Edad"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imagenView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -58,28 +66,27 @@
         android:layout_height="48dp"
         android:layout_marginTop="28dp"
         android:ems="10"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/aclonica"
         android:inputType="textPersonName"
         android:text="Nombre"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="270dp"
-        android:layout_height="47dp"
+        android:layout_width="273dp"
+        android:layout_height="78dp"
         android:layout_marginTop="40dp"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/aclonica"
         android:text="Información Personal"
-        android:textColor="#4CAF50"
-        android:textSize="34sp"
+        android:textColor="#8356D1"
+        android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,20 +96,26 @@
         android:layout_height="190dp"
         app:srcCompat="@drawable/a1_h"
         tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteY="365dp"
+        android:background="#D78DED"
+        tools:ignore="MissingConstraints" />
+
 
     <ImageButton
         android:id="@+id/buttonLeft"
         android:layout_width="60dp"
+        android:background="#D78DED"
+
 
         android:layout_height="108dp"
         android:layout_marginBottom="28dp"
         android:contentDescription="Boton izquierdo"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_baseline_arrow_left_24"
+        android:src="@drawable/ic_baseline_arrow_right_24"
         app:layout_constraintBottom_toBottomOf="@+id/imagenView"
         app:layout_constraintEnd_toStartOf="@+id/imagenView"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/ic_baseline_arrow_left_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

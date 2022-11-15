@@ -6,20 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbarDefaultDelayBeforeFade="400"
-    android:background="#C1EDF3"
+    android:background="@color/colorcalendario"
     tools:context=".RegistroActivity">
-
-
-
 
 
     <ImageButton
         android:id="@+id/buttonRight"
         android:layout_width="60dp"
-        android:background="#8356D1"
-
         android:layout_height="108dp"
+
         android:layout_marginTop="104dp"
+        android:background="@color/colorcalendariofondo"
         android:contentDescription="Botón derecho"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_baseline_arrow_right_24"
@@ -33,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:background="#8356D1"
+        android:background="@color/colorcalendariofondo"
         android:text="Next"
         android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,21 +92,21 @@
         android:id="@+id/imagenView"
         android:layout_width="192dp"
         android:layout_height="190dp"
+        android:background="@color/colorcalendario"
         app:srcCompat="@drawable/a1_h"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="365dp"
-        android:background="#93DAE3"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="365dp" />
 
 
     <ImageButton
         android:id="@+id/buttonLeft"
         android:layout_width="60dp"
-        android:background="#8356D1"
-
-
         android:layout_height="108dp"
+
+
         android:layout_marginBottom="28dp"
+        android:background="@color/colorcalendariofondo"
         android:contentDescription="Boton izquierdo"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_baseline_arrow_right_24"

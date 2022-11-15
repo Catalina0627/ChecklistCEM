@@ -13,20 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChecklistCem"
         tools:targetApi="31">
+
         <activity
-            android:name=".ActivityInicioPantalla"
-            android:exported="false" />
-        <activity
-            android:name=".Activity2Registro"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_inicio"
-            android:exported="false" />
-        <activity
-            android:name=".activityregistro"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".Activity_calendario"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_inicio"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

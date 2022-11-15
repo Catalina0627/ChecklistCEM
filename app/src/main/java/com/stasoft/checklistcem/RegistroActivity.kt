@@ -23,7 +23,7 @@ class RegistroActivity : AppCompatActivity() {
         }
 
         //Carga de imagen botón derecho
-        binding.buttonRight.setOnClickListener(){
+        binding.buttonRight.setOnClickListener {
             numAvatar++
             cargaImagen(binding.imagenView, numAvatar)
         }
@@ -32,9 +32,8 @@ class RegistroActivity : AppCompatActivity() {
     }
 
     fun cargaImagen(imageView: ImageView, numero:Int):Boolean{
-        val imageArray: TypedArray
         var ret =false
-        imageArray = getResources().obtainTypedArray(R.array.avatars)
+        val imageArray: TypedArray = resources.obtainTypedArray(R.array.avatars)
         if (numero >= 0 && numero < imageArray.length()){
             imageView.setImageResource(imageArray.getResourceId(numero,R.drawable.a1_h))
             ret = true

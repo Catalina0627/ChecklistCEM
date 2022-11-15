@@ -9,9 +9,11 @@ class Activity_inicio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inicio)
+        sleep(10000)
+    }
 
-        sleep(3000)
-
+    override fun onStart() {
+        super.onStart()
         val intent = Intent(this, RegistroActivity::class.java)
         startActivity(intent)
     }

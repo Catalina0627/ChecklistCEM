@@ -5,8 +5,8 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C1EDF3"
-    tools:context=".Activity_calendario">
+    android:background="@color/colorcalendario"
+    >
 
     <CalendarView
         android:id="@+id/calendarView"
@@ -22,15 +22,15 @@
         android:id="@+id/textView3"
         android:layout_width="413dp"
         android:layout_height="96dp"
-        android:background="#9B7BD3"
-        android:text="      Calendario"
+        android:background= "@color/colorcalendariofondo"
+        android:text="Calendaring"
         android:textColor="#562AA1"
         android:textSize="45sp"
-        app:fontFamily="@font/aclonica"
         app:layout_constraintBottom_toTopOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.009" />
+        app:layout_constraintVertical_bias="0.009"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,5 @@
-package com.stasoft.clasegit
+package com.stasoft.checklistcem
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -13,7 +12,7 @@ import com.stasoft.checklistcem.UserFragment
 import com.stasoft.checklistcem.databinding.ActivityMenuBinding
 
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class MenuActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var binding: ActivityMenuBinding
     private lateinit var actionBarDrawerToggle:ActionBarDrawerToggle

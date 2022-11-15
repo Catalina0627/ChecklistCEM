@@ -5,21 +5,32 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C1EDF3"
     tools:context=".Activity_calendario">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="236dp"
-        android:layout_height="69dp"
-        android:background="#D78DED"
-        android:orientation="horizontal"
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="428dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="413dp"
+        android:layout_height="96dp"
+        android:background="#9B7BD3"
+        android:text="      Calendario"
+        android:textColor="#562AA1"
+        android:textSize="45sp"
+        app:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toTopOf="@+id/calendarView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.093">
-
-    </LinearLayout>
+        app:layout_constraintVertical_bias="0.009" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

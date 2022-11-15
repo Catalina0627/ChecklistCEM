@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbarDefaultDelayBeforeFade="400"
+    android:background="#C1EDF3"
     tools:context=".RegistroActivity">
 
 
@@ -15,7 +16,7 @@
     <ImageButton
         android:id="@+id/buttonRight"
         android:layout_width="60dp"
-        android:background="#D78DED"
+        android:background="#8356D1"
 
         android:layout_height="108dp"
         android:layout_marginTop="104dp"
@@ -32,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:background="#D78DED"
+        android:background="#8356D1"
         android:text="Next"
         android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,8 +45,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="279dp"
-        android:layout_height="48dp"
+        android:layout_width="284dp"
+        android:layout_height="61dp"
         android:layout_marginTop="52dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
@@ -97,14 +98,14 @@
         app:srcCompat="@drawable/a1_h"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="365dp"
-        android:background="#D78DED"
+        android:background="#93DAE3"
         tools:ignore="MissingConstraints" />
 
 
     <ImageButton
         android:id="@+id/buttonLeft"
         android:layout_width="60dp"
-        android:background="#D78DED"
+        android:background="#8356D1"
 
 
         android:layout_height="108dp"

@@ -18,22 +18,22 @@ class RegistroActivity : AppCompatActivity() {
 
         //Carga de imagen botón izquierdo
         binding.buttonLeft.setOnClickListener(){
-            if (numAvatar>0) numAvatar;59
-            cargaImagen(binding.imageView, numAvatar)
+            if (numAvatar>0) numAvatar
+            cargaImagen(binding.imagenView, numAvatar)
         }
 
         //Carga de imagen botón derecho
         binding.buttonRight.setOnClickListener(){
             numAvatar++
-            cargaImagen(binding.imageView, numAvatar)
+            cargaImagen(binding.imagenView, numAvatar)
         }
 
 
     }
 
     fun cargaImagen(imageView: ImageView, numero:Int):Boolean{
-        var imageArray: TypedArray
-        var ret:Boolean=false
+        val imageArray: TypedArray
+        var ret =false
         imageArray = getResources().obtainTypedArray(R.array.avatars)
         if (numero >= 0 && numero < imageArray.length()){
             imageView.setImageResource(imageArray.getResourceId(numero,R.drawable.a1_h))

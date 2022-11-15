@@ -2,17 +2,23 @@ package com.stasoft.checklistcem
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.stasoft.checklistcem.databinding.ActivityCalendarioBinding
 
 class Activity_calendario : AppCompatActivity() {
 
+    private lateinit var banding: Any
+    private lateinit var binding: ActivityMainBinding
 
-    private lateinit var binding: ActivityCalendarioBinding
+    class ActivityMainBinding {
+        object inflate {
+
+        }
+
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityCalendarioBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        banding = ActivityMainBinding.inflate
+        setContentView(R.layout.activity_calendario)
     }
 }
 
